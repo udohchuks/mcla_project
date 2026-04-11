@@ -9,7 +9,11 @@ if defined _OLD_CODEPAGE (
 )
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 set VIRTUAL_ENV=C:\Users\admin\Documents\mcla_project\venv
+=======
+set "VIRTUAL_ENV=C:\Users\frank\Desktop\mcla_project\venv"
+>>>>>>> c88c4016c7555b5ec53966a2bf7f7b5a6ed77af0
 =======
 set VIRTUAL_ENV=C:\Users\nelso\Desktop\mcla_project\venv
 >>>>>>> 8767f415bf74e77bfd38b3862c885e0ffee507f1
@@ -28,8 +32,13 @@ set PYTHONHOME=
 if defined _OLD_VIRTUAL_PATH set PATH=%_OLD_VIRTUAL_PATH%
 if not defined _OLD_VIRTUAL_PATH set _OLD_VIRTUAL_PATH=%PATH%
 
+<<<<<<< HEAD
+set "PATH=%VIRTUAL_ENV%\Scripts;%PATH%"
+set "VIRTUAL_ENV_PROMPT=(venv) "
+=======
 set PATH=%VIRTUAL_ENV%\Scripts;%PATH%
 set VIRTUAL_ENV_PROMPT=(venv) 
+>>>>>>> 8767f415bf74e77bfd38b3862c885e0ffee507f1
 
 :END
 if defined _OLD_CODEPAGE (
