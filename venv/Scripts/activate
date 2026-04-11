@@ -38,7 +38,11 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
+<<<<<<< HEAD
 VIRTUAL_ENV="C:\Users\admin\Documents\mcla_project\venv"
+=======
+VIRTUAL_ENV="C:\Users\nelso\Desktop\mcla_project\venv"
+>>>>>>> 8767f415bf74e77bfd38b3862c885e0ffee507f1
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
